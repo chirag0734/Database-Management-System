@@ -1,0 +1,61 @@
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating C:\Program Files\Java\jre1.8.0_131\lib\rt.jar: class java.lang.Object now provided by /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating D:\final\project1\lib\junit-4.12.jar: class org.junit.Assert now provided by /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/lib/junit-4.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe main.java.Table has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(getName,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(i_join,[Default]), UsedName(project,[Default]), UsedName(hashCode,[Default]), UsedName(join,[Default]), UsedName(col,[Default]), UsedName(h_join,[Default]), UsedName(insert,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(Table,[Default]), UsedName(printIndex,[Default]), UsedName(main;java;Table;init;,[Default]), UsedName(union,[Default]), UsedName(toString,[Default]), UsedName(select,[Default]), UsedName(notifyAll,[Default]), UsedName(save,[Default]), UsedName(minus,[Default]), UsedName(print,[Default]), UsedName(load,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) main.java.Table: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) main.java.Table.[0m
+[0m[[0m[0mdebug[0m] [0m[0mName hashing optimization doesn't apply to non-Scala dependency: test.java.TableTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe main.java.KeyType has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(KeyType,[Default]), UsedName(hashCode,[Default]), UsedName(main;java;KeyType;init;,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(main,[Default]), UsedName(compareTo,[Default]), UsedName(toString,[Default]), UsedName(notifyAll,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) main.java.KeyType: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) main.java.KeyType.[0m
+[0m[[0m[0mdebug[0m] [0m[0mName hashing optimization doesn't apply to non-Scala dependency: test.java.TableTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe main.java.ArrayUtil has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(concat,[Default]), UsedName(hashCode,[Default]), UsedName(main;java;ArrayUtil;init;,[Default]), UsedName(getClass,[Default]), UsedName(ArrayUtil,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(notifyAll,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) main.java.ArrayUtil: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) main.java.ArrayUtil.[0m
+[0m[[0m[0mdebug[0m] [0m[0mName hashing optimization doesn't apply to non-Scala dependency: test.java.TableTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(D:\final\project1\src\test\java\TableTest.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/src/test/java/TableTest.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(D:\final\project1\target\test-classes\test\java\TableTest.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(main.java.Table,ModifiedNames(changes = UsedName(getName,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(i_join,[Default]), UsedName(project,[Default]), UsedName(hashCode,[Default]), UsedName(join,[Default]), UsedName(col,[Default]), UsedName(h_join,[Default]), UsedName(insert,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(Table,[Default]), UsedName(printIndex,[Default]), UsedName(main;java;Table;init;,[Default]), UsedName(union,[Default]), UsedName(toString,[Default]), UsedName(select,[Default]), UsedName(notifyAll,[Default]), UsedName(save,[Default]), UsedName(minus,[Default]), UsedName(print,[Default]), UsedName(load,[Default]))), NamesChange(main.java.KeyType,ModifiedNames(changes = UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(KeyType,[Default]), UsedName(hashCode,[Default]), UsedName(main;java;KeyType;init;,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(main,[Default]), UsedName(compareTo,[Default]), UsedName(toString,[Default]), UsedName(notifyAll,[Default]))), NamesChange(main.java.ArrayUtil,ModifiedNames(changes = UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(concat,[Default]), UsedName(hashCode,[Default]), UsedName(main;java;ArrayUtil;init;,[Default]), UsedName(getClass,[Default]), UsedName(ArrayUtil,[Default]), UsedName(notify,[Default]), UsedName(toString,[Default]), UsedName(notifyAll,[Default]))))[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(C:\Program Files\Java\jre1.8.0_131\lib\rt.jar, D:\final\project1\lib\junit-4.12.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(D:\final\project1\src\test\java\TableTest.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(D:\final\project1\src\test\java\TableTest.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/src/test/java/TableTest.java, D:\final\project1\src\test\java\TableTest.java)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Java source to /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAttempting to call com.sun.tools.javac.api.JavacTool@5ebb3a4e directly...[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation took 0.075387212 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava analysis took 0.001495862 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mJava compilation + analysis took 0.079198399 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from test.java.TableTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(test.java.TableTest,ModifiedNames(changes = UsedName(test;java;TableTest;init;,[Default]), UsedName(TableTest,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(project,[Default]), UsedName(hashCode,[Default]), UsedName(expectedResult,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(film3,[Default]), UsedName(cinema,[Default]), UsedName(film5,[Default]), UsedName(unionJoin,[Default]), UsedName(film0,[Default]), UsedName(film2,[Default]), UsedName(union,[Default]), UsedName(equiJoin,[Default]), UsedName(toString,[Default]), UsedName(film4,[Default]), UsedName(select,[Default]), UsedName(notifyAll,[Default]), UsedName(naturalJoin,[Default]), UsedName(minus,[Default]), UsedName(film1,[Default]), UsedName(movie,[Default]), UsedName(selectProject,[Default]))) invalidates 1 classes due to The test.java.TableTest has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(test;java;TableTest;init;,[Default]), UsedName(TableTest,[Default]), UsedName(equals,[Default]), UsedName(wait,[Default]), UsedName(project,[Default]), UsedName(hashCode,[Default]), UsedName(expectedResult,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(film3,[Default]), UsedName(cinema,[Default]), UsedName(film5,[Default]), UsedName(unionJoin,[Default]), UsedName(film0,[Default]), UsedName(film2,[Default]), UsedName(union,[Default]), UsedName(equiJoin,[Default]), UsedName(toString,[Default]), UsedName(film4,[Default]), UsedName(select,[Default]), UsedName(notifyAll,[Default]), UsedName(naturalJoin,[Default]), UsedName(minus,[Default]), UsedName(film1,[Default]), UsedName(movie,[Default]), UsedName(selectProject,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(test.java.TableTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

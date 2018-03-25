@@ -1,0 +1,22 @@
+# Compiled class file
+
+*.class
+
+project2/out/*
+*.xml
+*.xml
+project2/project/target/streams/runtime/dependencyClasspath/$global/streams/export
+project2/project/target/streams/runtime/dependencyClasspath/$global/streams/export
+project5/pizza_portal/target/pizza_portal/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar
+*.jar
+*.lst
+*.war
+*.prefs
+*.component
+*.container
+*.name
+*.MF
+*.properties
+project5/pizza_portal/.settings/.jsdtscope
+project5/pizza_portal/.project
+project5/pizza_portal/.classpath

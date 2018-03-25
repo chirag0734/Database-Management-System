@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>John Papa Pizzas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="home.js"></script>
+</head>
+<body>
+<!-- reference https://www.kelloggs.com/en_US/home.html -->
+
+<div id="index-body"  class="welcomePageInfoBox" style="opacity: 1;">
+    <!-- <div id="index-mask"></div> -->
+    <!-- MENU BAR -->
+    <div id="menuBar">
+        <button id="logout" class="btn btn-primary btn-lg" style="float: right;" onclick="window.location.reload()"> Logout </button>
+        <button id="showCart" class="btn btn-primary btn-lg" style='float: right;'> Show Cart</button>
+        <button id="homepage" type="button" class="btn btn-primary btn-lg" style='float: right;'> Home</button>
+        <span style="color: white" id="dispalyName" style="float: left;"><h3>Hello <button class="profile" id="seeProfile"><span id = "loggedInUser">guest!</span></button></h3></span>
+    </div>
+
+
+    <!-- LOGIN FORM -->
+    <div class="container infobox" id="loginForm" style="display:inline">
+
+        <div class="form-group">
+            <label for="usr">Email Id:</label>
+            <input type="email" class="form-control" id="usr">
+        </div>
+
+        <div class="form-group">
+            <label for="pass">Password:</label>
+            <input type="password" class="form-control" id="pass">
+        </div>
+        <button type="button" class="btn btn-primary btn-lg" id="loginClick">Submit</button>
+        <button type="button" class="btn btn-success btn-lg" id="signUpClick">SignUp</button>
+
+    </div>
+
+    <!-- SIGN UP FORM -->
+    <div class="container infobox" id="signUpForm" style="height:100%">
+
+        <div class="form-group">
+            <label for="usr">Name:</label>
+            <input type="text" class="form-control" id="newUser">
+        </div>
+
+        <div class="form-group">
+            <label for="pass">Password:</label>
+            <input type="password" class="form-control" id="usrPass">
+        </div>
+
+        <div class="form-group">
+            <label for="email">EmailId:</label>
+            <input type="text" class="form-control" id="usrEmail">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" class="form-control" id="usrPhone">
+        </div>
+
+        <div class="form-group">
+            <label for="zipcode">ZipCode:</label>
+            <input type="text" class="form-control" id="usrZipcode">
+        </div>
+
+        <div class="form-group">
+            <label for="street">Street:</label>
+            <input type="text" class="form-control" id="usrStreet">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" class="form-control" id="usrCity">
+        </div>
+
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" class="form-control" id="usrState">
+        </div>
+        <button type="button" class="btn btn-success" id="signUpSubmit">SignUp</button>
+
+    </div>
+
+    <!-- INDEX PAGE -->
+    <div id="index-popup" class="infobox">
+        <button type="button" id="choosemenu" class="btn btn-primary btn-xl">Choose from menu</button>
+        <button type="button" id="yourown" class="btn btn-primary btn-xl">Make your own</button>
+    </div>
+
+    <!-- USER PROFILE -->
+    <div id="userProfile" class="infobox">
+        <h2>User profile</h2>
+        <div id="userInfoDiv">
+            <table id="userInfo" class="table table-hover">
+                <tbody id="userTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- PIZZA MENU -->
+    <div id="choosemenudiv" class="infobox">
+        <h2>Choose From Menu</h2>
+        <div id="dataTableDiv">
+            <table id="dataTable" class="table table-hover">
+                <thead id="tableHeader">
+                </thead>
+                <tbody id="tableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- reference: http://www.html.am/html-codes/forms/html-checkbox-code.cfm -->
+    <!-- CUSTOM PIZZA -->
+    <div id ="yourowndiv" class="infobox">
+        <h2>Create your own</h2>
+        <form id="customizeForm">
+            <h4>Size *</h4>
+            <div id="size"></div>
+            <h4>Sauce *</h4>
+            <div id="sauce"></div>
+            <h4>Toppings</h4>
+            <div id="toppings"></div>
+            <h4>Quantity</h4>
+            <div ><input id="customPizzaQuantitiy" type="text" value ="1"></div>
+            <button type="button" id="CustomPizzaAddBtn" class="btn btn-primary btn-xl">Add to Cart</button>
+        </form>
+    </div>
+
+    <!-- DISPLAY CART -->
+    <div id="displayCart" class="infobox">
+        <h2>Your Cart</h2>
+        <div id="cartDiv">
+            <table id="cartDisplay" class="table table-hover">
+                <thead id="cartHeader">
+                </thead>
+                <tbody id="cartTable">
+                </tbody>
+            </table>
+        </div>
+        <p style="float: right;"><h3>Total Cost: <span id="totalCost"></span></h3></p><br>
+        <button id="placeOrder" class="btn btn-primary btn-lg" style="float: right;">Place Order</button>
+    </div>
+
+    <!-- ORDER PLACED -->
+    <div id="orderPlaced" class="infobox">
+        <h1>Your order has been placed!</h1>
+    </div>
+</div>
+</body>
+</html>

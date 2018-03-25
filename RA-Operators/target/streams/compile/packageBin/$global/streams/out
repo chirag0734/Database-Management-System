@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/project1-0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/Table.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/Table.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/Table$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/Table$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/Table$MapType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/Table$MapType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/KeyType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/KeyType.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/ArrayUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/ArrayUtil.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main/java/MovieDB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/chirag/New Volume1/Fall 2017/DBMS/Project 1/project1/target/classes/main/java/MovieDB.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

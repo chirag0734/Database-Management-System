@@ -1,0 +1,18 @@
+CREATE INDEX idx_sid ON student(id);
+drop index idx_sid;
+
+SELECT s.name FROM student s where s.id = '898275393';
+
+CREATE INDEX idx_tr_crsCode ON transcript("crsCode");
+DROP INDEX idx_tr_crsCode;
+
+SELECT name FROM student s, transcript t 
+WHERE s.id=t."studId" AND t."crsCode"='crsCode896815373';
+
+CREATE INDEX idx_cr_deptId ON course("deptId");
+DROP INDEX idx_cr_deptId;
+
+SELECT s.name FROM student s, transcript t,course c WHERE s.id=t."studId" AND t."crsCode"=c."crsCode" AND         
+c."deptId" = 'deptId606077450' 
+EXCEPT (SELECT name FROM student s, transcript t,course c WHERE s.id=t."studId" AND t."crsCode"=c."crsCode" AND         
+c."deptId" = 'deptId71731618');
